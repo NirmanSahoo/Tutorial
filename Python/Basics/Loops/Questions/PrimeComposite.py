@@ -11,5 +11,8 @@ if number > 1:
             print("The number is composite")
             break # breaks and comes out of the loop
 
+    if number % i != 0:
+         print("The number is prime")
+
 else:
-    print("The number is prime")
+    print("The number must be greater than 1")
